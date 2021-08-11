@@ -3,7 +3,7 @@ const Adaptive = require('./adaptive')
 
 module.exports = (options) => {
   return {
-    postcssPlugin: 'postcss-adaptive',
+    postcssPlugin: 'postcss-rem-adaptive',
     Once(css, { result }) {
       const adaptiveIns = new Adaptive(options)
       const output = adaptiveIns.parse(css.toJSON())

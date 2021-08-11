@@ -1,6 +1,6 @@
 {
   "name": "postcss-rem-adaptive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A postcss v8 plugin that calculates and generates adaptive css code.",
   "keywords": [
     "postcss",
